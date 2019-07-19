@@ -1,5 +1,5 @@
 {
-  "appName": "Git",
+  "appName": "Labs",
   "headerNavigation": [
     {
       "name": "Playbook",
@@ -14,21 +14,21 @@
     {
       "route": "/playbook",
       "name": "Playbook",
-      "description": "This is the playbook",
+      "description": "Este é o nosso Playbook!",
       "icon": "address-book",
       "children": [
         {
           "route": "/whatsNew",
-          "name": "Whats new ?",
-          "description": "recent announcements, news, latest and greatest",
+          "name": "Novidades ?",
+          "description": "quais são as boas novas do Labs",
           "icon": "bullhorn",
           "topics": ["news"],
           "markdown" : "/static/markdown/whatsnew/Current.md"
         },
         {
           "route": "/links",
-          "name": "Helpful Links",
-          "description": "how to go from here ?",
+          "name": "Links úteis",
+          "description": "precisa de um help ?",
           "topics": [],
           "icon": "link",
           "markdown" : "/static/markdown/Links.md"
@@ -36,45 +36,45 @@
         {
           "route": "/faq",
           "name": "FAQs",
-          "description": "frequently asked questions are covered here",
+          "description": "perguntas frequentes serão abordadas aqui",
           "topics": [],
           "icon": "question-circle",
           "markdown" : "/static/markdown/FAQ.md"
         },
         {
           "route": "/roadmap",
-          "name": "Our Roadmap",
-          "description": "aligning our development plans with our stakeholders",
+          "name": "Nosso Roadmap",
+          "description": "alinhando nossos planos de desenvolvimento com nossos stakeholders",
           "topics": [],
           "icon": "map-marked-alt",
           "markdown" : "/static/markdown/Roadmap.md"
         },
         {
           "route": "/process",
-          "name": "Process Documentation",
-          "description": "anything about process",
+          "name": "Documentação de processos",
+          "description": "tudo sobre processos do Labs",
           "icon": "project-diagram",
           "topics": ["process"],
           "children": [
             {
               "route": "/introduction",
-              "name": "Process Introduction",
-              "description": "how to read the process documentation",
+              "name": "Introdução ao Processo",
+              "description": "um help para não se perder na leitura dos processos",
               "icon": "project-diagram",
               "topics": ["process"],
               "markdown" : "/static/markdown/process/Introduction.md"
             },
             {
               "route": "/newPagesHowto",
-              "name": "New Pages HowTo",
-              "description": "how to create new Pages on the playbook",
+              "name": "Novas páginas - Como faz?",
+              "description": "como criar novas páginas aqui no Playbook",
               "icon": "file-alt",
               "topics": ["process"],
               "markdown" : "/static/markdown/process/NewPagesHowto.md"
             }
           ]
         }
-      ]      
+      ]
     }
   ]
 }
